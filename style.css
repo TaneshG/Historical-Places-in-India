@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.JFW-zRUoJcJMSEyRmeENlgHaE8?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header, footer{
+    background: linear-gradient(120deg, orange, white, green);
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+    padding-top: 0%;
+}
+h2{
+    padding-top: 20px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 340px;
+}
+#maindiv{
+    display: flex;
+    flex-direction: column;
+}
+#maindiv >div{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.subdiv{
+    border: 10px;
+    border-color: black;
+    background-color: beige;
+    
+}
